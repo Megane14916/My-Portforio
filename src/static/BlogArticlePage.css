@@ -1,0 +1,26 @@
+.blogArticle {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.blogArticlePageTag {
+    width: fit-content;
+    margin: 0;
+    color: black;
+    padding: 5px;
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tagArea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.blogArticleTitle {
+    margin: 0 0 10px 0;
+}
+.blogArticleDate {
+    margin: 0 0 20px 0;
+}

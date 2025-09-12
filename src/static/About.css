@@ -1,0 +1,58 @@
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.aboutPageText {
+    margin: 0;
+}
+.about-title2 {
+    margin-top: 70px;
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+}
+.about-title3 {
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+    margin: 50px 0 20px 0;
+}
+.about-title4 {
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+    margin: 50px 0 5px 0;
+}
+.takusan {
+    margin: 0 0 20px 0;
+}
+.skill {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgb(249, 249, 249);
+}
+.colored {
+    margin: auto;
+    margin-right: 6px;
+    font-size: 1.5rem;
+}
+.skillText {
+    margin: auto 0;
+}
+.skillSet {
+    display: flex;
+    max-width: 700px;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: pointer;
+}
+.devicon-tailwindcss-original {
+    font-size: 1.4rem;
+    margin-right: 4px;
+}
+.green {
+    border: 3px solid #5dff65;
+    background-color: rgb(226, 255, 221);
+}
+.red {
+    border: 3px solid #ff5d5d;
+    background-color: rgb(255, 221, 221);
+}

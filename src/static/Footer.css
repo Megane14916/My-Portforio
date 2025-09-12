@@ -1,0 +1,29 @@
+.Footer {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 155px;
+}
+.Footer2 {
+    display: flex;
+    margin: 0;
+}
+.sns {
+    margin: auto 0 auto auto;
+    padding: 0;
+    height: 24px;
+
+}
+.icon {
+    margin: auto;
+    color: black;
+    margin-left: 15px;
+}
+.FooterTitle {
+    margin: 0;
+    font-family: "Source Code Pro", "Inter", "Noto Sans JP", sans-serif;
+}
+.copyright {
+    margin-top: 60px;
+    font-size: 0.8rem;
+    color: rgb(180, 180, 180);
+}

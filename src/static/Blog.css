@@ -1,0 +1,33 @@
+.blog {
+    max-width: 700px;
+    margin: 70px auto 0 auto;
+}
+.blogPageTitle {
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+}
+.tagSec {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+.tagButton {
+    background-color: rgb(240, 240, 240);
+    border: 2px solid #d1d1d1;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tagButton:hover {
+    background-color: #dcdcdc;
+}
+.selected {
+    background-color: rgb(0, 0, 0);
+    border-color: #000;
+    color: white;
+    cursor: default;
+}
+.selected:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: #000;
+    color: white;
+}

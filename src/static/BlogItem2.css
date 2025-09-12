@@ -1,0 +1,41 @@
+.blogItem2 {
+    border: 2px solid #e4e4e4;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.blogLink2 {
+    text-decoration: none;
+}
+.blogTitle2 {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: black;
+}
+.blogTitle2:hover {
+    text-decoration: underline;
+}
+.blogDate2 {
+    margin: 0;
+    color: black;
+}
+.tag {
+    margin: 0;
+    color: black;
+    padding: 5px;
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tag:hover {
+    background-color: #d9d9d9;
+}
+.tagList {
+    display: flex;
+    gap: 10px;
+}

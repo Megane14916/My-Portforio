@@ -1,0 +1,124 @@
+.home {
+    width: 700px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 60px;
+    margin: 0px 0 10px 0;
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+
+    border-right: 4px solid #000000; 
+    animation: blinking .8s steps(2) infinite;
+    width: fit-content;
+}
+
+.title.animation-done {
+    border-color: transparent; 
+    animation: none; 
+    
+}
+.titleText {
+    padding-right: 1px;
+    border-right: 2px solid #000000; 
+    animation: blinking .8s steps(2) infinite;
+    width: fit-content;
+}
+.titleText.animation-done {
+    border-color: transparent; 
+    animation: none; 
+}
+.ime-active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000000;
+}
+@keyframes blinking {
+    from, to { border-color: transparent; }
+    50% { border-color: #000000; }
+}
+
+
+
+.about-sec {
+    margin: 0;
+    margin-top: 15px; 
+    height: calc(100vh - 105px);
+    display: flex;
+    align-items: center;
+}
+.about-sec-2 {
+    transform: translateY(-55px);
+}
+.about-sec p {
+    margin: 0;
+}
+.button-sec {
+    display: flex;
+    margin-top: 50px;
+}
+.button1 {
+    border-radius: 8px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #000;
+    border: 2px solid #000000;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+.button2 {
+    border: 2px solid #4a4a4a;
+    border-radius: 8px;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.button3 {
+    border: 2px solid #7b7b7b;
+    border-radius: 800px;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+.viewALLWorksButton {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.workItemList {
+    display: flex;
+}
+
+.worksTitle {
+    margin: 2.5px 0 20px 0;
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+}
+.blogTitle {
+    margin: 115px 0 20px 0;
+    font-family: "Geist Mono", "Inter", "Noto Sans JP", sans-serif;
+}
+
+.fade-in-up-element {
+    /* 初期状態: 透明で、少し下に配置 */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s cubic-bezier(0.19, 1, 0.22, 1), transform 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.fade-in-up-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.button1:hover {
+    background-color: #717171;
+    border-color: #717171;
+}
+.button2:hover {
+    background-color: #e6e6e6;
+}
+.button3:hover {
+    background-color: #000000;
+    color: #fff;
+    border-color: #000000;
+}
