@@ -66,9 +66,9 @@ export function About() {
     return(
         <div className='about'>
             <div className="container" ref={targetRef1}><h1 className={`titleText about-title2 ${isAnimationComplete1 ? 'animation-done' : ''}`}>{displayedText1}</h1></div>
-            <FadeInUpOnScroll delay={300}><p className='aboutPageText'>私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は私の名前は</p></FadeInUpOnScroll>
+            <FadeInUpOnScroll delay={300}><p className='aboutPageText'>Webプログラミングを勉強している大学生。大学での勉強にとても苦しんでいる。yoanzはScratchで活動してた時のユーザーネーム。</p></FadeInUpOnScroll>
             <div className="container" ref={targetRef2}><h1 className={`titleText about-title4 ${isAnimationComplete2 ? 'animation-done' : ''}`}>{displayedText2}</h1></div>
-            <FadeInUpOnScroll delay={300}><p className='takusan'>たくさん載せたけど、全部完璧にできるとは言ってない</p></FadeInUpOnScroll>
+            <FadeInUpOnScroll delay={300}><p className='takusan'>たくさん載せたけど、全部できるとは言ってない</p></FadeInUpOnScroll>
             <style>{styles}</style>
             <div className='skillSet'>
                 <Tooltip text="できる"><FadeInUpOnScroll delay={300}><div className='skill green'><i class="devicon-html5-plain colored"></i><p className='skillText'>HTML</p></div></FadeInUpOnScroll></Tooltip>
@@ -90,7 +90,7 @@ export function About() {
                 <Tooltip text="いつか学びたい"><FadeInUpOnScroll delay={1900}><div className='skill red'><i class="devicon-amazonwebservices-plain-wordmark colored"></i><p className='skillText'>AWS</p></div></FadeInUpOnScroll></Tooltip>
             </div>
             <div className="container" ref={targetRef3}><h1 className={`titleText about-title3 ${isAnimationComplete3 ? 'animation-done' : ''}`}>{displayedText3}</h1></div>
-            <FadeInUpOnScroll delay={300}><p>将棋</p></FadeInUpOnScroll>
+            <FadeInUpOnScroll delay={300}><p>将棋(弱い)。スプラトゥーン(弱い)。</p></FadeInUpOnScroll>
         </div>
     )
 }
