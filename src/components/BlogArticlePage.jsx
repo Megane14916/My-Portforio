@@ -12,7 +12,7 @@ export function BlogArticlePage() {
       <FadeInUpOnLoad delay={100}><p className='blogArticleDate'>{article.date}</p></FadeInUpOnLoad>
       <div className='tagArea'>
       {article.tags.map((tag)=>(
-        <FadeInUpOnLoad delay={200}><div className='blogArticlePageTag'>#{tag}</div></FadeInUpOnLoad>
+        <FadeInUpOnLoad delay={200} key={tag}><div className='blogArticlePageTag'>#{tag}</div></FadeInUpOnLoad>
       ))}</div>
       <FadeInUpOnLoad delay={300}><ReactMarkdown>{article.content}</ReactMarkdown></FadeInUpOnLoad>
     </article>
